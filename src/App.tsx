@@ -10,7 +10,7 @@ export default function App() {
     const data = await res.json();
     setAdvice(data.slip.advice);
     setCount((c) => c + 1);
-    console.log("first", getAdvice)
+    console.log("first", getAdvice) 
   }
 
   useEffect(() => {
