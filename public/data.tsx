@@ -1,4 +1,3 @@
-
 import { pizzaDataTypes } from './../src/types';
 
 export const pizzaData: pizzaDataTypes[] = [
