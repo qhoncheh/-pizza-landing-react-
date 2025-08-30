@@ -1,12 +1,12 @@
-import { pizzaDataTypes } from './../src/types';
+import type { pizzaDataTypes } from "./types";
 
 export const pizzaData: pizzaDataTypes[] = [
     {
         name: "Focaccia",
         ingredients: "Bread with italian olive oil and rosemary",
         price: 6,
-        photoName: "pizzas/focaccia.jpg", 
-        soldOut: false, 
+        photoName: "pizzas/focaccia.jpg",
+        soldOut: false,
     },
     {
         name: "Pizza Margherita",
