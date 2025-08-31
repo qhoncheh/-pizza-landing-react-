@@ -1,7 +1,13 @@
+import Pizza from "../../Pizza"
 
 const Menu = () => {
-  return (
-    <div>Menu</div>
+    return (
+        <div>
+            <h2>Our Menu</h2>
+            <Pizza />
+            <Pizza />
+            <Pizza />
+      </div>
   )
 }
 
