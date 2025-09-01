@@ -3,5 +3,5 @@ const Header = () => {
     <h3>Fast React Pizaa Co.</h3>
   )
 }
- 
-export default Header
+
+export default Header 
