@@ -7,7 +7,6 @@ const Menu = () => {
             <SectionTitle className="text-slate-400"  text="Our Menu"/>
             <Pizza /> 
             <Pizza />
-            <Pizza />
       </div>
   )
 }
