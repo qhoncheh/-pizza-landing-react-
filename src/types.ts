@@ -13,9 +13,10 @@ export type SectionTitleProps = {
   className?: string;     
 }
 
-export type prop = {
+export type PizzaProp = {
   pic: string;
   name: string;
   desc: string;
-  price:number
+  price: number;
+  className: ""
 };

@@ -1,18 +1,13 @@
-import SectionTitle from "../custom/section-title"
-import type { prop } from "../../types";
+import type { PizzaProp } from "../../types"
 
-const Pizza = (props : prop) => {
-    console.log("first", props);
+const Pizza = (props: PizzaProp) => {
     return (
-        <div>
-            <SectionTitle className="text-slate-400" text={props.name} />
-            <div className="flex flex-col gap-2">
-            <img className="rounded-xl w-1/5" src={props.pic} alt={props.name} />
-            <p className="text-xs">{props.desc}</p>
-            <p className="text-green-600 font-bold">{props.price}</p>   
-            </div>
+        <div className="flex flex-col gap-8  w-[300px] h-[380px] p-2  shadow-md rounded-lg">
+            <img className="rounded-xl w-full h-[120px] object-cover" src={props.pic} alt={props.name} />
+            <p className="text-xs text-gray-700">{props.desc}</p>
+            <p className="text-green-600 font-bold">{props.price}</p>
         </div>
-    )
-}
+    );
+};
 
-export default Pizza
+export default Pizza;
