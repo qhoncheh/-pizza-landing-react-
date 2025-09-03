@@ -7,15 +7,14 @@ const Footer = () => {
   const isOpen = hour >= openHour && hour < closeHour;
 
   return (
-    <>
-      <div className="text-center mb-4 font-bold">
-        {new Date().toLocaleString()} {isOpen ? "We're currently open!" : "We're currently closed!"}
-      </div>
+    isOpen && (
+    <div className="flex flex-col gap-8 p-4">
+      <p className="text-center"> We are Open untill {closeHour}:00.  Come Visit us or Order Online !</p>
       <div className="flex mb-6 justify-center ">
         <OrderBtn />
       </div>
-    </>
-  );
+    </div>
+  ))
 };
 
 export default Footer;
