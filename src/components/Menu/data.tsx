@@ -1,4 +1,4 @@
-import type { pizzaDataTypes } from "./types";
+import type { pizzaDataTypes } from "../../types";
 
 export const pizzaData: pizzaDataTypes[] = [
     {
