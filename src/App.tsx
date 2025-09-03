@@ -5,11 +5,12 @@ import Menu from "./components/Menu/Menu";
 export default function App() {
 
     return (
-        <div className="bg-hero w-full flex flex-col gap-2 justify-center min-h-screen">
+        <div className="bg-slate w-full flex flex-col gap-2 justify-center min-h-screen">
             <Header />
             <Menu />
             <Footer />
         </div>
+
 
     );
 }
