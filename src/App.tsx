@@ -5,7 +5,7 @@ import Menu from "./components/Menu/Menu";
 export default function App() {
 
     return (
-        <div>
+        <div className="flex flex-col gap-2 justify-center">
             <Header />
             <Menu />
             <Footer />

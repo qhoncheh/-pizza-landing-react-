@@ -1,9 +1,10 @@
 import Pizza from "../../Pizza"
+import SectionTitle from "../custom/section-title"
 
 const Menu = () => {
     return (
         <div>
-            <h2>Our Menu</h2>
+            <SectionTitle text="Our Menu"/>
             <Pizza /> 
             <Pizza />
             <Pizza />
