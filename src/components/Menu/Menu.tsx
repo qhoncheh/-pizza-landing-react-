@@ -4,9 +4,9 @@ import Pizza from "./Pizza"
 
 const Menu = () => {
     return ( 
-        <div>
+        <div className="max-w-5xl mx-auto px-6">
             <SectionTitle className="text-slate-400" text="Our Menu" />
-            <div className="grid grid-cols-3 gap-6 border-2 border-white p-4">
+            <div className="grid grid-cols-3 gap-4 border-2 border-dotted border-white/10 p-6">
                 {pizzaData.map((pizza, index) => (
                     <Pizza
                         key={index}
@@ -18,6 +18,7 @@ const Menu = () => {
                 ))}
             </div>
         </div>
+
   )
 }
 

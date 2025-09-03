@@ -34,7 +34,7 @@ export const pizzaData: pizzaDataTypes[] = [
     },
     {
         name: "Pizza Prosciutto",
-        desc: "Tomato, mozarella, ham, aragula, and burrata cheese",
+        desc: "Tomato, mozarella, ham, aragula, and cheese",
         price: 18,
         pic: "pizzas/prosciutto.jpg",
     },
