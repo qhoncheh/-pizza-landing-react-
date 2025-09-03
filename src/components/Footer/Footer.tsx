@@ -6,7 +6,7 @@ const Footer = () => {
   if (hour >= openHour && closeHour) alert("we are currently open")
 
   return (
-    <div>{new Date().toLocaleString()}We're currently open !</div>
+    <div className="text-center mb-4 font-bold">{new Date().toLocaleString()}  We're currently open !</div>
   )
 }
 
