@@ -4,7 +4,7 @@ import SectionTitle from "../custom/section-title"
 const Menu = () => {
     return (
         <div>
-            <SectionTitle text="Our Menu"/>
+            <SectionTitle className="text-slate-400"  text="Our Menu"/>
             <Pizza /> 
             <Pizza />
             <Pizza />
