@@ -3,7 +3,7 @@ import type { PizzaProp } from "../../types"
 const Pizza = ({ pic, name, desc, price }: PizzaProp) => {
     return (
         <div className="flex flex-row gap-8 w-[700px] h-[280px] p-4 shadow-md rounded-lg 
-            backdrop-filter backdrop-blur-sm border border-white/10 text-white">
+    bg-white/5 backdrop-filter backdrop-blur-md border border-white/10 text-white">
             <img
                 className="rounded-lg cursor-pointer text-gray-300 object-cover hover:grayscale transition duration-300 ease-in-out"
                 src={pic}
@@ -17,6 +17,7 @@ const Pizza = ({ pic, name, desc, price }: PizzaProp) => {
                 <p className="text-green-400 font-bold">{price}</p>
             </div>
         </div>
+
 
     );
 };
