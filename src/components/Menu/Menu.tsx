@@ -1,12 +1,11 @@
 import Pizza from "../../Pizza"
-import Header from "../Header/Header"
+import SectionTitle from "../custom/section-title"
 
 const Menu = () => {
     return (
         <div>
-            <h2>Our Menu</h2>
-            <Header />
-            <Pizza />
+            <SectionTitle text="Our Menu"/>
+            <Pizza /> 
             <Pizza />
             <Pizza />
       </div>
