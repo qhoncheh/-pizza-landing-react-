@@ -6,10 +6,16 @@ export type pizzaDataTypes =  {
   soldOut: boolean;
 }
 
-
 export type SectionTitleProps = {
   text: string;
   textColor?: string;     
   borderColor?: string;    
   className?: string;     
 }
+
+export type prop = {
+  pic: string;
+  name: string;
+  desc: string;
+  price:number
+};
