@@ -1,3 +1,5 @@
+import OrderBtn from "../custom/Buttons/order-btn";
+
 const Footer = () => {
   const hour = new Date().getHours();
   const openHour = 12;
@@ -8,6 +10,9 @@ const Footer = () => {
     <>
       <div className="text-center mb-4 font-bold">
         {new Date().toLocaleString()} {isOpen ? "We're currently open!" : "We're currently closed!"}
+      </div>
+      <div className="flex mb-6 justify-center ">
+        <OrderBtn />
       </div>
     </>
   );
