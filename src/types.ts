@@ -1,22 +1,20 @@
-export type pizzaDataTypes =  {
+export type pizzaDataTypes = {
+  pic: string;
   name: string;
-  ingredients: string;
+  desc: string;
   price: number;
-  photoName: string;
-  soldOut: boolean;
-}
+};
 
 export type SectionTitleProps = {
   text: string;
-  textColor?: string;     
-  borderColor?: string;    
-  className?: string;     
-}
+  textColor?: string;
+  borderColor?: string;
+  className?: string;
+};
 
 export type PizzaProp = {
   pic: string;
   name: string;
   desc: string;
   price: number;
-  className: ""
 };

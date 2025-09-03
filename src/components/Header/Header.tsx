@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <h3 className="text-red-500 font-bold text-3xl text-center">Fast Pizaa Co.</h3>
+    <h3 className="text-[#D2B57A] font-bold text-3xl text-center">Fast Pizza Co.</h3>
   )
 }
 
