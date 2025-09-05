@@ -18,5 +18,5 @@ export type PizzaProp = {
   name: string;
   desc: string;
   price: number;
-  className: string
+  className: string 
 };
