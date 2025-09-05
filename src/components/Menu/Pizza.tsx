@@ -1,10 +1,10 @@
 import type { PizzaProp } from "../../types"
-import PlusBtn from "../custom/PlusBtn";
+import PlusBtn from "../custom/Buttons/PlusBtn";
 
 const Pizza = ({ pic, name, desc, price }: PizzaProp) => {
     return (
         <div className="flex flex-row gap-8 w-[700px] h-[280px] p-4 shadow-md rounded-lg 
-    bg-white/5 backdrop-filter backdrop-blur-md border border-white/10 text-white">
+            bg-white/5 backdrop-filter backdrop-blur-md border border-white/10 text-white">
             <img
                 className="rounded-lg cursor-pointer text-gray-300 object-cover hover:grayscale transition duration-300 ease-in-out"
                 src={pic}
