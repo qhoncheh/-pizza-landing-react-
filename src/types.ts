@@ -19,4 +19,4 @@ export type PizzaProp = {
   desc: string;
   price: number;
   className: string 
-};
+};  
