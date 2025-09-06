@@ -1,3 +1,4 @@
+import OrderBtn from "../custom/Buttons/order-btn"
 import SectionTitle from "../custom/Title/section-title"
 import { pizzaData } from "./data"
 import Pizza from "./Pizza"
@@ -16,6 +17,9 @@ const Menu = () => {
                         price={pizza.price}
                     />
                 ))}
+            </div>
+            <div className="p-8 w-1/6 mx-auto text-center">
+                <OrderBtn />
             </div>
         </div>
   )
