@@ -1,4 +1,4 @@
-import SectionTitle from "../custom/section-title"
+import SectionTitle from "../custom/Title/section-title"
 import { pizzaData } from "./data"
 import Pizza from "./Pizza"
 
