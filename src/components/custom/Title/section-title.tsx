@@ -1,4 +1,4 @@
-import type { SectionTitleProps } from '../../types';
+import type { SectionTitleProps } from '../../../types';
 
 const SectionTitle = ({ text, className = '' }: SectionTitleProps) => {
   return (
