@@ -3,7 +3,6 @@ import { pizzaData } from "./data"
 import Pizza from "./Pizza"
 
 const Menu = () => {
-    // const pizza = []
     const numPizzas = pizzaData.length;
     return ( 
         <ul className="px-6">
@@ -16,15 +15,15 @@ const Menu = () => {
                         pic={pizza.pic}
                         name={pizza.name}
                         desc={pizza.desc}
-                        price={pizza.price} />
+                        price={pizza.price}
+                        soldOut={pizza.soldOut}
+                    />
                 ))}
-                </li>
+            </li>
                 ) : (
                  <p> We 're still working on our menu.Please come back later : </p>
                 )} 
-    
             </ul>
-
   )
 }
 
