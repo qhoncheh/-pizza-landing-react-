@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="flex flex-col gap-8 p-4">
             {isOpen ? (
-                <Data closeHour={closeHour} />
+                <Data openHour={openHour} closeHour={closeHour} />
             ) : <p className="text-center"> We're happy to welcome you between {openHour}:00 and {closeHour}:00 </p>}
         </footer>
     )

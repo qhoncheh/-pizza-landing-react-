@@ -27,5 +27,6 @@ export type PizzaProp = {
 
 export type DataProps = {
   closeHour: number;
+  openHour: number;
 };
 
