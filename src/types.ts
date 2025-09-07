@@ -22,4 +22,5 @@ export type PizzaProp = {
   desc: string;
   price: number;
   className?: string;
+  soldOut: string;
 };

@@ -16,15 +16,15 @@ const Menu = () => {
                         pic={pizza.pic}
                         name={pizza.name}
                         desc={pizza.desc}
-                        price={pizza.price} />
+                        price={pizza.price}
+                        soldOut="true || false"
+                    />
                 ))}
-                </li>
+            </li>
                 ) : (
                  <p> We 're still working on our menu.Please come back later : </p>
                 )} 
-    
             </ul>
-
   )
 }
 
