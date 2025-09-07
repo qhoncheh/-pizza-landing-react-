@@ -20,7 +20,7 @@ export const pizzaData: pizzaDataTypes[] = [
         desc: "Tomato, mozarella, spinach, and ricotta cheese",
         price: "1200 $",
         pic: "pizzas/spinaci.jpg",
-        soldOut: false
+        soldOut: true
     },
     {
         name: "Pizza Funghi",

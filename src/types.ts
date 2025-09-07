@@ -22,5 +22,11 @@ export type PizzaProp = {
   desc: string;
   price: number;
   className?: string;
-  soldOut: string;
+  soldOut: boolean;
 };
+
+export type DataProps = {
+  closeHour: number;
+  openHour: number;
+};
+
