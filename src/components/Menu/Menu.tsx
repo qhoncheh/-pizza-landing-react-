@@ -26,4 +26,4 @@ const Menu = () => {
             </main>
   )}
 
-export default Menu;
+export default Menu
