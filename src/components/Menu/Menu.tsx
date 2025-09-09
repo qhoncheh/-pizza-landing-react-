@@ -17,7 +17,7 @@ const Menu = () => {
                         desc={pizza.desc}
                         price={pizza.price}
                         soldOut={pizza.soldOut}
-                    />
+                 />
                 ))}
             </ul>
                 ) : (
