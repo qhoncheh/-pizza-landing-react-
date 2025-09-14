@@ -8,14 +8,12 @@ export type pizzaDataTypes = {
   desc: string;
   className?: string;
 };
-
 export type SectionTitleProps = {
   text: string;
   textColor?: string;
   borderColor?: string;
   className?: string;
 };
-
 export type PizzaProp = {
   pic: string;
   name: string;
@@ -24,7 +22,6 @@ export type PizzaProp = {
   className?: string;
   soldOut: boolean;
 };
-
 export type DataProps = {
   closeHour: number;
   openHour: number;
