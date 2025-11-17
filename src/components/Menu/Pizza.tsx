@@ -4,7 +4,7 @@ import PlusBtn from "../custom/Buttons/PlusBtn";
 const Pizza = ({ pic, name, desc, price, soldOut }: PizzaProp) => {
     return (
         <div
-            className={`flex flex-row gap-8 w-[700px] h-[280px] p-4 shadow-md rounded-lg bg-white/5 backdrop-filter backdrop-blur-md border border-white/10 text-white
+            className={`flex flex-row gap-8 w-[600px] h-[280px] p-4 shadow-md rounded-lg bg-white/5 backdrop-filter backdrop-blur-md border border-white/10 text-white
             ${soldOut ? "opacity-50 grayscale cursor-not-allowed pointer-events-none" : ""}`}
         >
             <img
